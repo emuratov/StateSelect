@@ -19,6 +19,7 @@ class Country extends Component {
                                 name={el.name}
                                 capital={el.capital}
                                 nativeName={el.nativeName}
+                                flag = {el.flag}
                             />
                         )
                     }

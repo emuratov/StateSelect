@@ -17,6 +17,10 @@ code {
 .items {
     display: flex;
 }
+.items-flag{
+    width: 50px;
+    max-height: 20px;
+}
 
 .item{
     width: 120px;

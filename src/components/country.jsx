@@ -10,15 +10,12 @@ class Country extends Component {
     countryData = DATA;
 
     render() {
-        let count = 0;
         return (
             <div>
                 {this.countryData.map(function (el) {
-                    count = count +1;
                         return (
                             <CountryLine
-                                key={count}
-                                counter={count}
+                                key={el.numericCode}
                                 name={el.name}
                                 capital={el.capital}
                                 nativeName={el.nativeName}

@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 
 class CountryLine extends Component {
 
-
     render() {
 
         return (
@@ -11,6 +10,7 @@ class CountryLine extends Component {
                 <div className="item">{this.props.name}</div>
                 <div className="item">{this.props.capital}</div>
                 <div className="item">{this.props.nativeName}</div>
+                <div className="item">{this.props.counter}</div>
             </div>
         )
     }

@@ -8,20 +8,21 @@ import CountryLine from './country-line';
 class Country extends Component {
 
     countryData = DATA;
-    capital;
 
     render() {
+        let count = 0;
         return (
             <div>
                 {this.countryData.map(function (el) {
+                    count = count +1;
                         return (
                             <CountryLine
-                                key={el.numericCode}
+                                key={count}
+                                counter={count}
                                 name={el.name}
                                 capital={el.capital}
                                 nativeName={el.nativeName}
                             />
-
                         )
                     }
                 )

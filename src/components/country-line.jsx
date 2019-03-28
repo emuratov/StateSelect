@@ -7,11 +7,11 @@ class CountryLine extends Component {
 
         return (
             <div className="items">
-                <img className='items-flag' src={this.props.flag} alt=""/>
                 <div className="item">{this.props.name}</div>
                 <div className="item">{this.props.capital}</div>
                 <div className="item">{this.props.nativeName}</div>
                 <div className="item">{this.props.counter}</div>
+                <img className='items-flag' src={this.props.flag} alt=""/>
             </div>
         )
     }

@@ -1,17 +1,21 @@
 import React, {Component} from 'react';
 import DATA from './DATA';
 import CountryLine from './country-line';
+import HandleSearch from './handleSerach'
 
 // data is http://restcountries.eu/#api-endpoints-code
 
 
 class Country extends Component {
 
+
     countryData = DATA;
 
     render() {
         return (
             <div>
+                <HandleSearch />
+                {console.log(this.handleChange)}
                 {this.countryData.map(function (el) {
                         return (
                             <CountryLine

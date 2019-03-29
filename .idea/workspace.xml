@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c2b77ed-7d98-41d4-a97c-4a24eda12ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/handleSerach.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/country-line.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/country-line.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/country.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/country.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +52,7 @@
           <entry key="gitignore" value="9" />
           <entry key="js" value="34" />
           <entry key="jsx" value="1568" />
-          <entry key="txt" value="43" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -63,7 +60,7 @@
           <entry key="CSS" value="143" />
           <entry key="JSX Harmony" value="1568" />
           <entry key="JavaScript" value="34" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
     </session>
@@ -231,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553570940178</updated>
       <workItem from="1553570942880" duration="4556000" />
-      <workItem from="1553582150578" duration="22761000" />
+      <workItem from="1553582150578" duration="23992000" />
     </task>
     <task id="LOCAL-00001" summary="Create">
       <created>1553573204945</created>
@@ -275,11 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553673229481</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add search">
+      <created>1553756508227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553756508227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27317000" />
+    <option name="totallyTimeSpent" value="28548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,9 +296,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -308,7 +311,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3290735" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,7 +329,8 @@
     <MESSAGE value="++" />
     <MESSAGE value="key error" />
     <MESSAGE value="add flag" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flag" />
+    <MESSAGE value="add search" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.js">

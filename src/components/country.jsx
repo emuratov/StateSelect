@@ -8,27 +8,45 @@ import HandleSearch from './handleSerach'
 
 class Country extends Component {
 
+    constructor(props) {
+        super(props)
+        this.state = {listingState: this.countryData};
+        this.handleChange = this.handleChange.bind(this);
+    }
 
     countryData = DATA;
 
     handleChange = function (ev) {
         console.log(ev.target.value);
+
+        let searchQuery = ev.target.value.toLowerCase();
+        this.setState({
+                listingState: this.countryData.filter(function (el) {
+                        let searchValue = el.name.toLowerCase();
+                        return searchValue.indexOf(searchQuery) !== -1;
+                    }
+                )
+            }
+        );
+        console.log(this.state);
+
+
         return ev.target.value;
     }
 
     render() {
         return (
             <div>
-                <HandleSearch handleChange = {this.handleChange} />
+                <HandleSearch handleChange={this.handleChange}/>
 
-                {this.countryData.map(function (el) {
+                {this.state.listingState.map(function (el) {
                         return (
                             <CountryLine
                                 key={el.numericCode}
                                 name={el.name}
                                 capital={el.capital}
                                 nativeName={el.nativeName}
-                                flag = {el.flag}
+                                flag={el.flag}
                             />
                         )
                     }
@@ -38,8 +56,6 @@ class Country extends Component {
         );
     }
 }
-
-
 
 
 export default Country;

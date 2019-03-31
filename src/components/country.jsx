@@ -11,11 +11,16 @@ class Country extends Component {
 
     countryData = DATA;
 
+    handleChange = function (ev) {
+        console.log(ev.target.value);
+        return ev.target.value;
+    }
+
     render() {
         return (
             <div>
-                <HandleSearch />
-                {console.log(this.handleChange)}
+                <HandleSearch handleChange = {this.handleChange} />
+
                 {this.countryData.map(function (el) {
                         return (
                             <CountryLine
@@ -30,9 +35,11 @@ class Country extends Component {
                 )
                 }
             </div>
-
         );
     }
 }
+
+
+
 
 export default Country;

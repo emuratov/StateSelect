@@ -41,13 +41,16 @@ class Country extends Component {
 
                 {this.state.listingState.map(function (el) {
                         return (
-                            <CountryLine
-                                key={el.numericCode}
-                                name={el.name}
-                                capital={el.capital}
-                                nativeName={el.nativeName}
-                                flag={el.flag}
-                            />
+                            <div>
+                                <CountryLine
+                                    key={el.numericCode}
+                                    name={el.name}
+                                    capital={el.capital}
+                                    nativeName={el.nativeName}
+                                    flag={el.flag}
+                                />
+                                <hr/>
+                            </div>
                         )
                     }
                 )

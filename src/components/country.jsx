@@ -39,6 +39,15 @@ class Country extends Component {
             <div>
                 <HandleSearch handleChange={this.handleChange}/>
 
+                <div className="items">
+                    <div className="item">Название</div>
+                    <div className="item">Столица</div>
+                    <div className="item">Имя</div>
+                    <div className="item">Флаг</div>
+                </div>
+
+                <hr/>
+
                 {this.state.listingState.map(function (el) {
                         return (
                             <div>
